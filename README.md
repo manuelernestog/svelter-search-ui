@@ -55,7 +55,7 @@ In the consuming project's tailwind.config.js (or tailwind.config.cjs), you need
 module.exports = {
   content: [
     './src/**/*.{html,js,svelte,ts}',
-    './node_modules/your-library-name/**/*.{html,js,svelte,ts}',
+    './node_modules/svelter-search-ui/**/*.{html,js,svelte,ts}',
   ],
   theme: {
     extend: {},
