@@ -1,13 +1,16 @@
-# Svelte Search Components
+# Svelter Search UI
 
-A Svelte library that provides components for building search functionalities, including `SearchDialog`, `SearchItem`, and `SearchGroup`.
+A Svelte and Tailwind library that provides components for building search functionalities, including `SearchDialog`, `SearchItem`, and `SearchGroup`.
+
+![Svelter Search UI Preview](preview.png)
 
 ## Table of Contents
 
-- [Svelte Search Components](#svelte-search-components)
+- [Svelter Search UI](#svelter-search-ui)
   - [Table of Contents](#table-of-contents)
   - [Requirements](#requirements)
   - [Installation](#installation)
+    - [Update Tailwind's Content Paths](#update-tailwinds-content-paths)
   - [Usage](#usage)
     - [SearchDialog](#searchdialog)
       - [Props](#props)
@@ -43,6 +46,26 @@ npm install svelter-search-ui tailwindcss @tailwindcss/forms
 ```
 
 **Note:** Make sure you have Svelte set up in your project. If not, you can create a new Svelte project
+
+### Update Tailwind's Content Paths
+In the consuming project's tailwind.config.js (or tailwind.config.cjs), you need to include your library's components in the content array:
+
+```javascript
+// tailwind.config.js
+module.exports = {
+  content: [
+    './src/**/*.{html,js,svelte,ts}',
+    './node_modules/your-library-name/**/*.{html,js,svelte,ts}',
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
+};
+
+```
 
 ## Usage
 
