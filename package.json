@@ -23,14 +23,14 @@
 		"svelte": "^4.0.0"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-auto": "^3.0.0",
-		"@sveltejs/kit": "^2.0.0",
+		"@sveltejs/adapter-auto": "^3.2.4",
+		"@sveltejs/kit": "^2.5.27",
 		"@sveltejs/package": "^2.3.5",
-		"@sveltejs/vite-plugin-svelte": "^3.0.0",
-		"publint": "^0.2.0",
-		"svelte": "^4.2.7",
-		"typescript": "^5.3.2",
-		"vite": "^5.0.11"
+		"@sveltejs/vite-plugin-svelte": "^3.1.2",
+		"publint": "^0.2.11",
+		"svelte": "^4.2.19",
+		"typescript": "^5.6.2",
+		"vite": "^5.4.5"
 	},
 	"types": "./dist/index.d.ts",
 	"type": "module"
