@@ -56,7 +56,7 @@
       </div>
     </slot>
 
-    <div class="flex flex-col">
+    <div class="flex flex-col max-w-[85%]">
       <span class="flex-auto ml-3 truncate">{title}</span>
       {#if subtitle}
         <span class="flex-auto ml-3 text-xs truncate opacity-75">{subtitle}</span>
