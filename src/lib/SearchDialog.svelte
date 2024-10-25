@@ -75,7 +75,7 @@
 
 <div
   class:hidden={isHidden}
-  class={"fixed top-0 w-screen h-screen flex flex-row items-start justify-center z-40 duration-300 ease-out " + displayClasses}
+  class={"fixed top-0 left-0 w-screen h-screen flex flex-row items-start justify-center z-40 duration-300 ease-out " + displayClasses}
   role="dialog"
   aria-modal="true"
 >
@@ -89,7 +89,7 @@
     <div
       class="h-full mx-auto overflow-hidden transition-all transform bg-white divide-y divide-gray-100 shadow-2xl dark:divide-gray-500 dark:divide-opacity-20 dark:bg-gray-900 sm:max-w-xl sm:h-auto sm:rounded-xl ring-1 ring-black ring-opacity-5"
     >
-      <div class="relative">
+      <div class="relative flex items-center">
         {#if !isLoading}
           <svg
             class="hidden sm:block pointer-events-none absolute left-4 top-3.5 h-5 w-5 text-gray-400"
