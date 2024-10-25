@@ -75,12 +75,12 @@
 
 <div
   class:hidden={isHidden}
-  class={"fixed top-0 w-full h-full flex flex-row items-start justify-center z-40 duration-300 ease-out " + displayClasses}
+  class={"fixed top-0 w-screen h-screen flex flex-row items-start justify-center z-40 duration-300 ease-out " + displayClasses}
   role="dialog"
   aria-modal="true"
 >
   <div
-    class="fixed inset-0 w-full h-full transition-opacity bg-black bg-opacity-50"
+    class="fixed inset-0 w-screen h-screen transition-opacity bg-black bg-opacity-50"
     aria-hidden="true"
     on:click={() => (show = false)}
   ></div>
